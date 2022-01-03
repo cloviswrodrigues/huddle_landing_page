@@ -1,0 +1,22 @@
+$color-violet: hsl(257, 40%, 49%);
+$color-soft-magenta: hsl(300, 69%, 71%);
+$color-white: white;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $color-white;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    background-color: $color-violet;
+    padding: 2rem;
+}

@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  background-color: #674baf;
+  padding: 2rem;
+}
+
+main {
+  width: 100%;
+}
+
+main .mockups {
+  width: 100%;
+  height: 225px;
+}
+
+main .mockups img {
+  width: 100%;
+  height: 100%;
+}
+
+main .content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .content__title {
+  font-size: 2rem;
+  font-family: Poppins, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

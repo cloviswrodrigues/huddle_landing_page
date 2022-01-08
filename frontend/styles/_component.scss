@@ -13,11 +13,17 @@ main {
 
     .content {
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto;        
+        font-family: Poppins, sans-serif;    
+        text-align: center;
     
         &__title {
-            font-size: 2rem;
-            font-family: Poppins, sans-serif;
+            font-size: 1.5rem;
+        }
+
+        &__paragraph {
+            font-size: 1rem;
+            font-weight: 400;
         }
     }
 }

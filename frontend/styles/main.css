@@ -7,8 +7,10 @@
 }
 
 html {
+  max-width: 360px;
   width: 100vw;
   height: 100vh;
+  margin: 0 auto;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  background-color: #674baf;
+  background: url(../assets/bg-mobile.svg) no-repeat #674baf;
   padding: 8%;
 }
 
@@ -30,7 +32,7 @@ header img {
 
 main {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 main .mockups {

@@ -10,9 +10,12 @@ $color-white: white;
     color: $color-white;
 }
 
-html {
+html {    
+    max-width: 360px;
     width: 100vw;
     height: 100vh;
+    margin: 0 auto;
+    
 }
 
 body {
@@ -20,7 +23,7 @@ body {
     height: 100%;
     margin: 0 auto;
     position: relative;
-    background-color: $color-violet;
+    background: url(../assets/bg-mobile.svg) no-repeat $color-violet;
     padding: 8%;
 }
 

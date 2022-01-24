@@ -2,12 +2,20 @@ header {
 
     img {
         width: 100px;
+
+        @media screen and(min-width: $break-desktop) {
+            width: 200px;
+        }
     }
 }
 
 main {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 2rem;
+
+    @media screen and(min-width: $break-desktop) {
+        display: flex;
+    }
 
     .mockups {
         width: 100%;
@@ -23,9 +31,19 @@ main {
         margin-top: 2rem;        
         font-family: Poppins, sans-serif;    
         text-align: center;
+
+        @media screen and(min-width: $break-desktop) {
+            margin-left: 3rem;
+            text-align: left;
+        }
     
         &__title {
             font-size: 1.5rem;
+
+            @media screen and(min-width: $break-desktop) {
+                margin-right: 12rem;
+                font-size: 2rem;
+            }
         }
 
         &__paragraph {
@@ -34,6 +52,10 @@ main {
             font-size: 1rem;
             font-family: Open Sans, sans-serif;
             font-weight: 400;
+
+            @media screen and(min-width: $break-desktop) {
+                margin-right: 5rem;
+            }
         }        
 
         &__button {
@@ -44,10 +66,14 @@ main {
             border-radius: 30px;
             box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 
+            @media screen and(min-width: $break-desktop) {
+                padding: .8rem 4rem;
+            }           
+
             &:hover {
                 background-color: $color-soft-magenta;
                 color: $color-white;
-            }
+            }            
         }
     }
 }
@@ -60,7 +86,13 @@ main {
 
     &__social {
         display: flex;
-        justify-content: center;
+        justify-content: center;        
+
+        @media screen and(min-width: $break-desktop) {
+            position: absolute;
+            right: 4%;
+            bottom: 4%;
+        }
 
         &-icon {
             border-radius: 50%;

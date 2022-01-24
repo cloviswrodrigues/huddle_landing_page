@@ -13,6 +13,12 @@ html {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1000px) {
+  html {
+    max-width: inherit;
+  }
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -20,6 +26,13 @@ body {
   position: relative;
   background: url(../assets/bg-mobile.svg) no-repeat #674baf;
   padding: 8%;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    padding: 4%;
+    background: url(/frontend/assets/bg-desktop.svg) no-repeat, #674baf;
+  }
 }
 
 a {
@@ -30,9 +43,23 @@ header img {
   width: 100px;
 }
 
+@media screen and (min-width: 1000px) {
+  header img {
+    width: 200px;
+  }
+}
+
 main {
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 main .mockups {
@@ -51,8 +78,22 @@ main .content {
   text-align: center;
 }
 
+@media screen and (min-width: 1000px) {
+  main .content {
+    margin-left: 3rem;
+    text-align: left;
+  }
+}
+
 main .content__title {
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  main .content__title {
+    margin-right: 12rem;
+    font-size: 2rem;
+  }
 }
 
 main .content__paragraph {
@@ -63,6 +104,12 @@ main .content__paragraph {
   font-weight: 400;
 }
 
+@media screen and (min-width: 1000px) {
+  main .content__paragraph {
+    margin-right: 5rem;
+  }
+}
+
 main .content__button {
   background-color: white;
   color: #674baf;
@@ -71,6 +118,12 @@ main .content__button {
   border-radius: 30px;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 1000px) {
+  main .content__button {
+    padding: .8rem 4rem;
+  }
 }
 
 main .content__button:hover {
@@ -92,6 +145,14 @@ main .content__button:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__social {
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+  }
 }
 
 .footer__social-icon {

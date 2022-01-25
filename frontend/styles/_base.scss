@@ -1,6 +1,7 @@
 $color-violet: hsl(257, 40%, 49%);
 $color-soft-magenta: hsl(300, 69%, 71%);
 $color-white: white;
+$color-gray: #d3d3d3;
 
 $break-desktop: 1000px;
 
@@ -30,12 +31,15 @@ body {
     background: url(../assets/bg-mobile.svg) no-repeat $color-violet;
     padding: 8%;
 
+
     @media screen and(min-width: $break-desktop) {
         padding: 4%;
-        background: url(/frontend/assets/bg-desktop.svg) no-repeat, $color-violet;
+        background: url(/frontend/assets/bg-desktop.svg) no-repeat $color-violet;
+        background-size: contain;
     }
 }
 
 a {
     all: unset;
+    cursor: pointer;
 }

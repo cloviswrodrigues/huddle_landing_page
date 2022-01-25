@@ -31,12 +31,14 @@ body {
 @media screen and (min-width: 1000px) {
   body {
     padding: 4%;
-    background: url(/frontend/assets/bg-desktop.svg) no-repeat, #674baf;
+    background: url(/frontend/assets/bg-desktop.svg) no-repeat #674baf;
+    background-size: contain;
   }
 }
 
 a {
   all: unset;
+  cursor: pointer;
 }
 
 header img {
@@ -45,7 +47,7 @@ header img {
 
 @media screen and (min-width: 1000px) {
   header img {
-    width: 200px;
+    width: 180px;
   }
 }
 
@@ -59,6 +61,7 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 3.5rem;
   }
 }
 
@@ -102,11 +105,13 @@ main .content__paragraph {
   font-size: 1rem;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
+  color: #d3d3d3;
 }
 
 @media screen and (min-width: 1000px) {
   main .content__paragraph {
-    margin-right: 5rem;
+    margin-right: 9rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -123,6 +128,7 @@ main .content__button {
 @media screen and (min-width: 1000px) {
   main .content__button {
     padding: .8rem 4rem;
+    font-size: 1rem;
   }
 }
 

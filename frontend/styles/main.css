@@ -33,6 +33,7 @@ body {
     padding: 4%;
     background: url(/frontend/assets/bg-desktop.svg) no-repeat #674baf;
     background-size: contain;
+    max-width: 1700px;
   }
 }
 

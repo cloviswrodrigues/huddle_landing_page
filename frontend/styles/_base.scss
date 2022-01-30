@@ -1,7 +1,7 @@
 $color-violet: hsl(257, 40%, 49%);
 $color-soft-magenta: hsl(300, 69%, 71%);
 $color-white: white;
-$color-gray: #d3d3d3;
+$color-gray: #e2e2e2;
 
 $break-desktop: 1000px;
 
@@ -36,7 +36,7 @@ body {
         padding: 4%;
         background: url(/frontend/assets/bg-desktop.svg) no-repeat $color-violet;
         background-size: contain;
-        max-width: 1700px;
+        max-width: 1440px;
     }
 }
 

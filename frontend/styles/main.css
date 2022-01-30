@@ -33,7 +33,7 @@ body {
     padding: 4%;
     background: url(/frontend/assets/bg-desktop.svg) no-repeat #674baf;
     background-size: contain;
-    max-width: 1700px;
+    max-width: 1440px;
   }
 }
 
@@ -43,12 +43,12 @@ a {
 }
 
 header img {
-  width: 100px;
+  width: 120px;
 }
 
 @media screen and (min-width: 1000px) {
   header img {
-    width: 180px;
+    width: 200px;
   }
 }
 
@@ -62,12 +62,18 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 10vh;
   }
 }
 
 main .mockups {
   width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  main .mockups {
+    width: 60%;
+  }
 }
 
 main .mockups img {
@@ -84,6 +90,7 @@ main .content {
 
 @media screen and (min-width: 1000px) {
   main .content {
+    width: 40%;
     margin-left: 3rem;
     text-align: left;
   }
@@ -95,8 +102,8 @@ main .content__title {
 
 @media screen and (min-width: 1000px) {
   main .content__title {
-    margin-right: 12rem;
     font-size: 2rem;
+    margin-right: 5rem;
   }
 }
 
@@ -106,12 +113,12 @@ main .content__paragraph {
   font-size: 1rem;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
-  color: #d3d3d3;
+  color: #e2e2e2;
 }
 
 @media screen and (min-width: 1000px) {
   main .content__paragraph {
-    margin-right: 9rem;
+    margin-right: 3rem;
     margin-bottom: 2.5rem;
   }
 }

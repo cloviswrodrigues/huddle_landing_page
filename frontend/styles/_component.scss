@@ -1,10 +1,10 @@
 header {
 
     img {
-        width: 100px;
+        width: 120px;
 
         @media screen and(min-width: $break-desktop) {
-            width: 180px;
+            width: 200px;
         }
     }
 }
@@ -12,14 +12,19 @@ header {
 main {
     width: 100%;
     margin-top: 2rem;
+    
 
     @media screen and(min-width: $break-desktop) {
         display: flex;
-        margin-top: 3.5rem;
+        margin-top: 10vh;
     }
 
     .mockups {
         width: 100%;
+
+        @media screen and(min-width: $break-desktop) {
+            width: 60%;
+        }
 
         img {
             width: 100%;
@@ -34,6 +39,7 @@ main {
         text-align: center;
 
         @media screen and(min-width: $break-desktop) {
+            width: 40%;
             margin-left: 3rem;
             text-align: left;
         }
@@ -42,8 +48,8 @@ main {
             font-size: 1.5rem;
 
             @media screen and(min-width: $break-desktop) {
-                margin-right: 12rem;
                 font-size: 2rem;
+                margin-right: 5rem;
             }
         }
 
@@ -56,7 +62,7 @@ main {
             color: $color-gray;
 
             @media screen and(min-width: $break-desktop) {
-                margin-right: 9rem;
+                margin-right: 3rem;
                 margin-bottom: 2.5rem;
             }
         }        

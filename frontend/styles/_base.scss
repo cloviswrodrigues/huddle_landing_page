@@ -34,8 +34,8 @@ body {
 
     @media screen and(min-width: $break-desktop) {
         padding: 4%;
-        background: url(/frontend/assets/bg-desktop.svg) no-repeat $color-violet;
-        background-size: contain;
+        background: url(../assets/bg-desktop.svg) no-repeat $color-violet;
+        background-size: cover;
         max-width: 1440px;
     }
 }
